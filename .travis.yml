@@ -5,7 +5,3 @@ services:
 before_install:
   - docker build -t nikpenev/docker-react -f Dockerfile.dev .
 
-script:
-  - docker run nikpenev/docker-react npm run test
-
-after_script: exit
