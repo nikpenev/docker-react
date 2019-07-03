@@ -7,3 +7,5 @@ before_install:
 
 script:
   - docker run nikpenev/docker-react npm run test
+
+after_script: exit
